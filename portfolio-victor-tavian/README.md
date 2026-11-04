@@ -1,9 +1,9 @@
 # Portfólio — Victor Tavian
 
-Site estático de página única.
+Portfólio de desenvolvimento criativo e experiências digitais, desenvolvido por Victor Tavian (KØDE® Digital Studio).
 
-## Publicar no Vercel
-- Arraste esta pasta (ou o zip) no painel do Vercel, ou
-- Rode `npx vercel --prod` dentro desta pasta.
+## Tecnologias
+HTML, CSS e JavaScript, com animações controladas pelo scroll e cursor personalizado.
 
-Não há build: o Vercel serve o `index.html` diretamente.
+## Publicação
+Site estático publicado no Vercel a partir do arquivo `index.html`.
