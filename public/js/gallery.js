@@ -1,5 +1,5 @@
 (function () {
-  const grid = document.getElementById('projects-grid');
+  const grid = (document.getElementById('projects-grid') || document.querySelector('.card').parentElement);
   const wrap = document.getElementById('cyl-wrap');
   const canvas = document.getElementById('cyl-canvas');
   if (!grid || !wrap || !canvas || typeof THREE === 'undefined') return;
@@ -12,7 +12,11 @@
     url: (c.querySelector('.card-link') || {}).href || '',
     img: (c.querySelector('img') || {}).src || ''
   }));
-  grid.remove();
+    // KART CUP e NEXT iPHONES: aparecem só no cilindro, sem cartão na página
+  projects.push(
+    { title: 'KART CUP', desc: 'Plataforma de inscrição para campeonato de kart, com apresentação do evento e cadastro de participantes.', tag: 'Inscrições', url: 'https://kartcup.netlify.app/', img: '' },
+    { title: 'NEXT iPHONES', desc: 'Catálogo digital de iPhones, com apresentação de modelos, especificações, cores e opções de armazenamento.', tag: 'Catálogo digital', url: 'https://nextiphones.netlify.app/', img: '' }
+  );grid.remove();
   const PHRASES = [
     'Um mundo inteiro em volta.',
     'Recue. Respire. Veja o todo.',
