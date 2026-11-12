@@ -14,8 +14,8 @@
   }));
     // KART CUP e NEXT iPHONES: aparecem só no cilindro, sem cartão na página
   projects.push(
-    { title: 'KART CUP', desc: 'Plataforma de inscrição para campeonato de kart, com apresentação do evento e cadastro de participantes.', tag: 'Inscrições', url: 'https://kartcup.netlify.app/', img: '' },
-    { title: 'NEXT iPHONES', desc: 'Catálogo digital de iPhones, com apresentação de modelos, especificações, cores e opções de armazenamento.', tag: 'Catálogo digital', url: 'https://nextiphones.netlify.app/', img: '' }
+    { title: 'KART CUP', desc: 'Plataforma de inscrição para campeonato de kart, com apresentação do evento e cadastro de participantes.', tag: 'Inscrições', url: 'https://kartcup.netlify.app/', img: '/projects/kart-cup.webp' },
+    { title: 'NEXT iPHONES', desc: 'Catálogo digital de iPhones, com apresentação de modelos, especificações, cores e opções de armazenamento.', tag: 'Catálogo digital', url: 'https://nextiphones.netlify.app/', img: '/projects/next-iphones.webp' }
   );grid.remove();
   const PHRASES = [
     'Um mundo inteiro em volta.',
