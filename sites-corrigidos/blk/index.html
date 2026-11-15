@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BLK Barbearia | Agendamento online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Rye&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <img class="logo-img" src="assets/images/logo.jpg" alt="BLK Barbearia" width="48" height="48">
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#agendar">Agendar</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<div class="hero" id="inicio">
+  <video autoplay muted loop playsinline preload="auto" src="assets/video/hero.mp4"></video>
+  <div>
+    <div class="eyebrow">BARBEARIA · DESDE 2020</div>
+    <h1>Estilo com precisão.</h1>
+    <p>Cortes, barba e acabamento feitos por profissionais que cuidam de cada detalhe. Escolha o serviço, o barbeiro e o horário.</p>
+    <a class="btn" href="#agendar">Agendar horário</a>
+  </div>
+</div>
+
+<section class="scroll-story" id="sobre">
+  <div class="story-sticky">
+    <div class="story-inner">
+    <div class="story-media"><canvas id="sobre-canvas" role="img" aria-label="Animação de um clipper girando e subindo"></canvas></div>
+    <div class="story-text">
+      <div class="beat on">
+        <div class="eyebrow">SOBRE A BLK</div>
+        <h2>Nossa história</h2>
+        <p>A BLK Barbearia nasceu da vontade de devolver à barbearia o que ela sempre teve de melhor: cuidado com cada detalhe e tempo para a conversa. Começamos em 2020, com uma cadeira, navalha bem afiada e atendimento sem pressa.</p>
+      </div>
+      <div class="beat">
+        <div class="eyebrow">CRESCIMENTO</div>
+        <h2>Três barbeiros, um padrão</h2>
+        <p>Hoje somos três barbeiros, cada um com o seu estilo, mas com a mesma base: técnica, respeito com o cliente e um espaço que faz você querer voltar.</p>
+      </div>
+      <div class="beat">
+        <div class="eyebrow">O QUE NOS MOVE</div>
+        <h2>Cada corte começa com uma conversa</h2>
+        <p>Antes da tesoura ou da máquina, ouvimos o que você quer, observamos seu cabelo e seu rosto e só então começamos. É assim que cuidamos de cada cliente.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="servicos">
+  <h2>Serviços</h2>
+  <p class="lead">Preços e duração de cada atendimento.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/corte-tesoura.png" alt="Corte na tesoura"></div>
+      <div class="body">
+        <h3>Corte na tesoura</h3>
+        <p>Corte tradicional com tesoura, ajustado ao formato do rosto.</p>
+        <div class="row"><span class="price">R$ 45</span><span class="small">40 min</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/corte-navalhado.png" alt="Corte navalhado"></div>
+      <div class="body">
+        <h3>Corte navalhado</h3>
+        <p>Acabamento com navalha para linhas limpas e marcadas.</p>
+        <div class="row"><span class="price">R$ 50</span><span class="small">45 min</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/corte-maquina.png" alt="Corte e barba"></div>
+      <div class="body">
+        <h3>Corte e barba</h3>
+        <p>Combo completo: corte, barba modelada e toalha quente.</p>
+        <div class="row"><span class="price">R$ 70</span><span class="small">1 h</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/barba-navalha.png" alt="Barba"></div>
+      <div class="body">
+        <h3>Barba</h3>
+        <p>Modelagem, alinhamento e hidratação da barba.</p>
+        <div class="row"><span class="price">R$ 35</span><span class="small">30 min</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/sobrancelha.png" alt="Sobrancelha"></div>
+      <div class="body">
+        <h3>Sobrancelha</h3>
+        <p>Design de sobrancelha com acabamento na navalha.</p>
+        <div class="row"><span class="price">R$ 15</span><span class="small">15 min</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/platinado.png" alt="Platinado"></div>
+      <div class="body">
+        <h3>Platinado</h3>
+        <p>Descoloração e tonalização para um loiro platinado, com acabamento no corte.</p>
+        <div class="row"><span class="price">R$ 120</span><span class="small">1 h 30</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/services/barboterapia-mascara.png" alt="Barboterapia"></div>
+      <div class="body">
+        <h3>Barboterapia</h3>
+        <p>Máscara facial e tratamento da barba para hidratar e limpar a pele.</p>
+        <div class="row"><span class="price">R$ 60</span><span class="small">45 min</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap team" id="equipe">
+  <h2>Equipe</h2>
+  <p class="lead">Três barbeiros, cada um com seu estilo.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="photo"><img src="assets/images/team/rafael-souza.png" alt="Rafael Souza" style="object-position:center 20%"></div>
+      <div class="body">
+        <h3>Rafael Souza</h3>
+        <p>Degradê e cortes clássicos.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/team/thiago-lima.png" alt="Thiago Lima" style="object-position:center 20%"></div>
+      <div class="body">
+        <h3>Thiago Lima</h3>
+        <p>Barba e navalhado.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="assets/images/team/bruno-alves.png" alt="Bruno Alves" style="object-position:center 20%"></div>
+      <div class="body">
+        <h3>Bruno Alves</h3>
+        <p>Cortes modernos e sobrancelha.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="agendar">
+  <h2>Agende seu horário</h2>
+  <p class="lead">Escolha o serviço, o barbeiro, a data e o horário livre.</p>
+  <div class="booking">
+    <div class="step">
+      <h4>1. Serviço</h4>
+      <div class="chips" id="servicos-chips"></div>
+    </div>
+    <div class="step">
+      <h4>2. Barbeiro</h4>
+      <div class="chips" id="barbeiros-chips"></div>
+    </div>
+    <div class="step">
+      <h4>3. Data</h4>
+      <div class="chips" id="datas-chips"></div>
+    </div>
+    <div class="step">
+      <h4>4. Horário</h4>
+      <div class="chips" id="horarios-chips"></div>
+    </div>
+    <form id="form">
+      <div class="step">
+        <h4>5. Seus dados</h4>
+        <div class="fields">
+          <label>Nome<input id="nome" required autocomplete="name"></label>
+          <label>WhatsApp<input id="telefone" required placeholder="(11) 99999-9999" autocomplete="tel"></label>
+        </div>
+      </div>
+      <div class="summary" id="resumo">Selecione um serviço para começar.</div>
+      <button class="btn" id="confirmar" type="submit" disabled>Confirmar agendamento</button>
+      <div class="ok" id="sucesso"></div>
+    </form>
+  </div>
+</section>
+
+<section class="wrap" id="contato">
+  <h2>Contato e horários</h2>
+  <p class="lead">Estamos esperando você.</p>
+  <div class="info">
+    <div class="card">
+      <div class="body">
+        <h3>Endereço</h3>
+        <p>Rua Exemplo, 123 · Centro<br>São Paulo · SP</p>
+        <p style="margin-top:12px">WhatsApp: (11) 99999-9999</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="body">
+        <h3>Horário de atendimento</h3>
+        <ul>
+          <li><span>Segunda</span><span>Fechado</span></li>
+          <li><span>Terça a sábado</span><span>09h às 20h</span></li>
+          <li><span>Domingo</span><span>09h às 14h</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot"><img class="foot-logo" src="assets/images/logo.jpg" alt="BLK Barbearia" width="220" height="220"><p class="foot-name">BLK Barbearia</p><p class="foot-copy">© BLK Barbearia · Todos os direitos reservados</p></footer>
+
+<script src="script.js"></script>
+<script>(function(){function g(){document.querySelectorAll("video").forEach(function(v){v.muted=true;v.setAttribute("playsinline","");v.autoplay=true;var p=v.play();if(p&&p.catch)p.catch(function(){});});}g();window.addEventListener("load",g);document.addEventListener("touchstart",g,{passive:true});document.addEventListener("click",g);})();</script></body>
+</html>

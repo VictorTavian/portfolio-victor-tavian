@@ -231,6 +231,7 @@
       const sc = Math.abs(c / r - cam.aspect) + 0.3 * (c * r - n);
       if (sc < best) { best = sc; cols = c; }
     }
+    if (cam.aspect < 0.9) cols = Math.min(2, n); // celular em pé: 2 colunas
     const rows = Math.ceil(n / cols);
     const cellW = (2 * halfW * 0.96) / cols, cellH = (2 * halfH * 0.96) / rows;
     const pw = Math.min(cellW * 0.94, cellH * 0.94 * ASPECT), ph = pw / ASPECT;
