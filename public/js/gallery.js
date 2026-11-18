@@ -18,7 +18,7 @@
     { title: 'NEXT iPHONES', desc: 'Catálogo digital de iPhones, com apresentação de modelos, especificações, cores e opções de armazenamento.', tag: 'Catálogo digital', url: 'https://nextiphones.netlify.app/', img: '/projects/next-iphones.webp' }
   );  // GROOVE LAB: estúdio de DJ e produção musical
   projects.push(
-    { title: 'GROOVE LAB', desc: 'Estúdio de DJ e produção musical, com gravação, mixagem, masterização e residências.', tag: 'Estúdio de música', url: 'https://groove-lab-studio.netlify.app/', img: '/projects/groove-lab.png' }
+    { title: 'GROOVE LAB', desc: 'Estúdio de DJ e produção musical, com gravação, mixagem, masterização e residências.', tag: 'Estúdio de música', url: 'https://groovelabstudio.netlify.app/', img: '/projects/groove-lab.png' }
   );grid.remove();
   const PHRASES = [
     'Um mundo inteiro em volta.',
